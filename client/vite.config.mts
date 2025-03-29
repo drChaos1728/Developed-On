@@ -21,6 +21,11 @@ export default defineConfig({
             },
         },
     },
+    server: {
+
+        allowedHosts: ["organic-meet-monarch.ngrok-free.app"], // Add your host here
+
+    },
     resolve: {
         alias: [
             {
